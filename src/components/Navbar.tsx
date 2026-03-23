@@ -65,7 +65,9 @@ export function Navbar() {
         </a>
 
         <a
-          href="#contact"
+          href="https://calendly.com/al-consulting-nova"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
           style={{
             backgroundColor: 'var(--accent)',

@@ -111,7 +111,9 @@ export function Hero() {
         {/* CTA */}
         <motion.div variants={fade} custom={0.3} initial="hidden" animate="visible">
           <a
-            href="#contact"
+            href="https://calendly.com/al-consulting-nova"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 shadow-[inset_-4px_-6px_25px_0px_rgba(201,201,201,0.08),inset_4px_4px_10px_0px_rgba(29,29,29,0.24)]"
             style={{
               background: 'linear-gradient(180deg, #3a3a3a 0%, #1a1a1a 50%, #0a0a0a 100%)',

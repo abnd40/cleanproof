@@ -61,7 +61,9 @@ export function FinalCTA() {
 
         <motion.div variants={fadeUp} style={{ marginBottom: '16px' }}>
           <a
-            href="#contact"
+            href="https://calendly.com/al-consulting-nova"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             style={{
               backgroundColor: 'var(--accent)',
@@ -102,7 +104,7 @@ export function FinalCTA() {
       <style>{`
         @media (max-width: 767px) {
           section:nth-of-type(6) { padding: 80px 24px !important; }
-          section:nth-of-type(6) a[href="#contact"] {
+          section:nth-of-type(6) a[href*="calendly"] {
             display: block !important;
             max-width: 400px;
             margin-left: auto;
